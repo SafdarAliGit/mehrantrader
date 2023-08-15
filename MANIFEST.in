@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mehrantrader *.css
+recursive-include mehrantrader *.csv
+recursive-include mehrantrader *.html
+recursive-include mehrantrader *.ico
+recursive-include mehrantrader *.js
+recursive-include mehrantrader *.json
+recursive-include mehrantrader *.md
+recursive-include mehrantrader *.png
+recursive-include mehrantrader *.py
+recursive-include mehrantrader *.svg
+recursive-include mehrantrader *.txt
+recursive-exclude mehrantrader *.pyc
